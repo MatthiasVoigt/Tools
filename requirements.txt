@@ -1,0 +1,13 @@
+# Dependencies for dm_detector.py and dm_roi.py (DMDetectorAlgorithm.md is documentation only).
+# Versions pinned to the environment these files were tested in (Python 3.14.7).
+
+# Required
+opencv-python==5.0.0.93
+numpy==2.5.3
+
+# Needed to load HEIC/HEIF/AVIF photos (imported lazily in load_image)
+pillow==12.3.0
+pillow-heif==1.8.0
+
+# Optional: rois_table / results_table return a DataFrame; without pandas they return list[dict]
+pandas==3.0.6
