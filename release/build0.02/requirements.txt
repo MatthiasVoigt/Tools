@@ -1,7 +1,0 @@
-# Runtime dependencies of dm_detector_build0_02.py (pinned to the tested environment)
-numpy==2.5.3
-opencv-python==5.0.0.93      # use opencv-python-headless on servers without a display
-pillow==12.3.0
-pillow-heif==1.8.0           # only needed to read .HEIC files
-scipy==1.18.1
-scikit-image==0.26.0
